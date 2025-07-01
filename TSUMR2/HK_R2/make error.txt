@@ -1,0 +1,267 @@
+David_Lin@LM5100515-23DLN /cygdrive/d/SVN-Server/trunk/AD9700/TSUMR2/HK_R2
+$ make
+[CC]  monitor_ap/KERNEL/SCALER/ms_rwreg.c
+In file included from ./core/lib/MST9U/include/datatype.h:103,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:16:
+./core/lib/MST9U/include/stdio.h:124: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from monitor_ap/KERNEL/SCALER/ms_rwreg.c:16:
+./core/lib/MST9U/include/datatype.h:699: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/types.h:5,
+                 from ./monitor_ap/PANEL/INC/Panel.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/DefaultCompilerOption.h:4,
+                 from ./monitor_ap/CUSTOM/MTK/BOARD/board.h:150,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:17:
+./core/drv_bsp/MST9U_nos_r2/include/MsTypes.h:170: 錯誤：expected specifier-qualifier-list before 「MS_U8」
+./core/drv_bsp/MST9U_nos_r2/include/MsTypes.h:184: 錯誤：expected specifier-qualifier-list before 「MS_U8」
+./core/drv_bsp/MST9U_nos_r2/include/MsTypes.h:198: 錯誤：expected specifier-qualifier-list before 「MS_U8」
+./core/drv_bsp/MST9U_nos_r2/include/MsTypes.h:232: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/PANEL/INC/Panel.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/DefaultCompilerOption.h:4,
+                 from ./monitor_ap/CUSTOM/MTK/BOARD/board.h:150,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:17:
+./monitor_ap/KERNEL/SYSTEM/INC/types.h:26: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SYSTEM/INC/types.h:26: 警告：在 「BReset」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SYSTEM/INC/types.h:111: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/PANEL/INC/Panel.h:6,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/DefaultCompilerOption.h:4,
+                 from ./monitor_ap/CUSTOM/MTK/BOARD/board.h:150,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:17:
+./monitor_ap/KERNEL/SCALER/INC/ms_reg.h:25: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/ms_reg.h:25: 警告：在 「msBus_Direction」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/ms_reg.h:15247: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/DefaultCompilerOption.h:4,
+                 from ./monitor_ap/CUSTOM/MTK/BOARD/board.h:150,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:17:
+./monitor_ap/PANEL/INC/Panel.h:472: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/PANEL/INC/Panel.h:472: 警告：在 「eDPTXHPD_USE_GPIO_GP0_TYP」 的宣告中，類型預設為 「int」
+./monitor_ap/PANEL/INC/Panel.h:751: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/DRIVER/9700/INC/drvDeltaE.h:4,
+                 from ./monitor_ap/CUSTOM/MTK/USERDATA/INC/UserPrefDef.h:4,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:4,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/Adjust.h:15: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/Adjust.h:15: 警告：在 「ColorType」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/Adjust.h:73: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/CUSTOM/MTK/USERDATA/INC/UserPrefDef.h:4,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:4,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/drvDeltaE.h:102: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/DRIVER/9700/INC/drvDeltaE.h:102: 警告：在 「ECFEnBitOffset」 的宣告中，類型預設為 「int」
+./monitor_ap/DRIVER/9700/INC/drvDeltaE.h:511: 錯誤：expected declaration specifiers or 「...」 before 「ColorType」
+./monitor_ap/DRIVER/9700/INC/drvDeltaE.h:647: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:4,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/CUSTOM/MTK/USERDATA/INC/UserPrefDef.h:18: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/CUSTOM/MTK/USERDATA/INC/UserPrefDef.h:18: 警告：在 「EDIDType」 的宣告中，類型預設為 「int」
+./monitor_ap/CUSTOM/MTK/USERDATA/INC/UserPrefDef.h:740: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:5,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/Mode.h:41: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SYSTEM/INC/Mode.h:41: 警告：在 「IP_MUX」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SYSTEM/INC/Mode.h:475: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:11,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/types.h:111: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:12,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/Debug.h:104: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:13,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/Common.h:16: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:15,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/Ms_rwreg.h:167: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:18,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/i2cdef.h:8: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SYSTEM/INC/i2cdef.h:8: 警告：在 「I2C_Direction」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SYSTEM/INC/i2cdef.h:10: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:20,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/misc.h:20: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:21,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/mStar.h:68: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:22,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/CUSTOM/MTK/UI/INC/menudef.h:183: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/CUSTOM/MTK/UI/INC/menudef.h:183: 警告：在 「MenuPageIndexType」 的宣告中，類型預設為 「int」
+./monitor_ap/CUSTOM/MTK/UI/INC/menudef.h:665: 錯誤：expected specifier-qualifier-list before 「MenuPageIndexType」
+./monitor_ap/CUSTOM/MTK/UI/INC/menudef.h:704: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SCALER/INC/drvADC.h:12,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:23,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/Mdrv_adctbl.h:33: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/Mdrv_adctbl.h:33: 警告：在 「ADC_INIT_TYPE」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/Mdrv_adctbl.h:1238: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:23,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/drvADC.h:56: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/drvADC.h:56: 警告：在 「ADC_INPUTSOURCE_TYPE」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/drvADC.h:110: 錯誤：expected 「)」 before 「enADCInput」
+./monitor_ap/KERNEL/SCALER/INC/drvADC.h:133: 錯誤：expected 「)」 before 「enADCInput」
+./monitor_ap/KERNEL/SCALER/INC/drvADC.h:151: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:24,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/drvGPIO.h:40: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/drvGPIO.h:40: 警告：在 「PWMNoType」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/drvGPIO.h:197: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:27,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/drvMcu.h:226: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:28,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/drvAdjust.h:12: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/DRIVER/9700/INC/drvAdjust.h:12: 警告：在 「IP2PATTERNColor」 的宣告中，類型預設為 「int」
+./monitor_ap/DRIVER/9700/INC/drvAdjust.h:70: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpCommon.h:4,
+                 from ./monitor_ap/DRIVER/9700/INC/dpCommon.h:29,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/DDC2Bi.H:3,
+                 from ./monitor_ap/DRIVER/INC/drvDDC2Bi.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpError.h:18: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpError.h:18: 警告：在 「ENUM_HDCP_ERR_CODE」 的宣告中，類型預設為 「int」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpError.h:20: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpCommon.h:6,
+                 from ./monitor_ap/DRIVER/9700/INC/dpCommon.h:29,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/DDC2Bi.H:3,
+                 from ./monitor_ap/DRIVER/INC/drvDDC2Bi.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/ComboApp.h:351: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/DRIVER/9700/INC/dpCommon.h:29,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/DDC2Bi.H:3,
+                 from ./monitor_ap/DRIVER/INC/drvDDC2Bi.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpCommon.h:146: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpCommon.h:146: 警告：在 「ENUM_HDCP_OPERATION」 的宣告中，類型預設為 「int」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpCommon.h:314: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/DRIVER/9700/INC/dpCommon.h:30,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/DDC2Bi.H:3,
+                 from ./monitor_ap/DRIVER/INC/drvDDC2Bi.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:90: 錯誤：expected specifier-qualifier-list before 「HDCPRX_IO_FUNC」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:104: 錯誤：expected declaration specifiers or 「...」 before 「HDCPRX_IO_FUNC」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:113: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「HDCPHandler_SECU_PowerDown」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:114: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「HDCPHandler_SECU_SET_HDMI_DP」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:115: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「HDCPHandler_DecodeHdcp1TxKey」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:116: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「HDCPHandler_DecodeHdcp2RxKey」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:117: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「HDCPHandler_DecodeHdcp2TxKey」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:139: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「HDCPHandler_EncryptHdcp2RxKey」
+./monitor_ap/DRIVER/9700/HDCP22/INC/HdcpHandler.h:149: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/DDC2Bi.H:3,
+                 from ./monitor_ap/DRIVER/INC/drvDDC2Bi.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/dpCommon.h:310: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/DRIVER/9700/INC/dpCommon.h:310: 警告：在 「DPRx_ID」 的宣告中，類型預設為 「int」
+./monitor_ap/DRIVER/9700/INC/dpCommon.h:600: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/DDC2Bi.H:4,
+                 from ./monitor_ap/DRIVER/INC/drvDDC2Bi.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/DDCColorHandler.h:70: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SYSTEM/INC/DDCColorHandler.h:70: 警告：在 「PatternType」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SYSTEM/INC/DDCColorHandler.h:84: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/DRIVER/INC/drvDDC2Bi.h:5,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/DDC2Bi.H:167: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:29,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/INC/drvDDC2Bi.h:441: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:31,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/msFB.h:195: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:32,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/drvmStar.h:210: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:33,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/msScaler.h:220: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SCALER/INC/msOVD.h:4,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:35,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/drvmsOVD.h:41: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:35,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/msOVD.h:18: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/msOVD.h:18: 警告：在 「ODStatusType」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/msOVD.h:81: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:38,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/appmStar.h:19: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「appmStar_CB_FuncList」
+./monitor_ap/DRIVER/9700/INC/appmStar.h:30: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SCALER/INC/Ms_PM.h:13,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:45,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/MT9700_DEMO_PMSET.h:280: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:45,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/Ms_PM.h:27: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/Ms_PM.h:27: 警告：在 「ePM_Mode」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/Ms_PM.h:125: 錯誤：expected specifier-qualifier-list before 「ePM_Mode」
+./monitor_ap/KERNEL/SCALER/INC/Ms_PM.h:192: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:47,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:188: 警告：資料定義時沒有類型或存儲類別
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:188: 警告：在 「UART_Result」 的宣告中，類型預設為 「int」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:380: 錯誤：expected declaration specifiers or 「...」 before 「MS_U8」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:389: 警告：在 「MS_U8」 的宣告中，類型預設為 「int」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:389: 錯誤：expected 「;」, 「,」 or 「)」 before 「*」 token
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:395: 錯誤：expected 「)」 before 「u8UARTID」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:399: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「MDrv_UART_SetIOMapBase」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:402: 錯誤：expected 「)」 before 「u8Ch」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:404: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「MDrv_UART_GetChar」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:405: 錯誤：expected 「)」 before 「*」 token
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:407: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「MDrv_UART_GetLibVer」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:408: 錯誤：expected 「=」, 「,」, 「;」, 「asm」 or 「__attribute__」 before 「MDrv_UART_GetStatus」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:409: 錯誤：expected 「)」 before 「level」
+./core/drv_bsp/MST9U_nos_r2/include/drvUART.h:456: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:4,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:52,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/CUSTOM/MTK/BOARD/board.h:603: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:7,
+                 from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:52,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/DRIVER/9700/INC/drvIMI.h:93: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from ./monitor_ap/KERNEL/SYSTEM/INC/Global.h:52,
+                 from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:35: 警告：資料定義時沒有類型或存儲類別
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:35: 警告：在 「MS_MLOAD_DEV」 的宣告中，類型預設為 「int」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:39: 錯誤：「ML_DEV_NUM」 未宣告 (不在函式內)
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:107: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:108: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:109: 錯誤：expected 「)」 before 「eDev」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:111: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:112: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:113: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:114: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:115: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:116: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:117: 錯誤：expected declaration specifiers or 「...」 before 「MS_MLOAD_DEV」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:118: 錯誤：expected 「)」 before 「eDev」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:119: 錯誤：expected 「)」 before 「eDev」
+./monitor_ap/KERNEL/SCALER/INC/msMenuload.h:144: 錯誤：expected identifier or 「(」 before 「.」 token
+In file included from monitor_ap/KERNEL/SCALER/ms_rwreg.c:18:
+./monitor_ap/KERNEL/SYSTEM/INC/Global.h:1677: 錯誤：expected identifier or 「(」 before 「.」 token
+monitor_ap/KERNEL/SCALER/ms_rwreg.c: 在函式 「msMemWriteByteMask」 中：
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:47: 警告：隱含宣告函式 「msMemReadByte」
+monitor_ap/KERNEL/SCALER/ms_rwreg.c: 在函式 「scReadByte」 中：
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:109: 錯誤：「RIU_MAP」 未宣告 (在此函式內第一次使用)
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:109: 錯誤：(即使在一個函式內多次出現，每個未宣告的識別碼在其
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:109: 錯誤：所在的函式內只報告一次。)
+monitor_ap/KERNEL/SCALER/ms_rwreg.c: 在函式 「scWriteByte」 中：
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:114: 錯誤：「RIU_MAP」 未宣告 (在此函式內第一次使用)
+monitor_ap/KERNEL/SCALER/ms_rwreg.c: 在函式 「msReadByte」 中：
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:121: 錯誤：「RIU_MAP」 未宣告 (在此函式內第一次使用)
+monitor_ap/KERNEL/SCALER/ms_rwreg.c: 在函式 「msWriteByte」 中：
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:134: 錯誤：「RIU_MAP」 未宣告 (在此函式內第一次使用)
+monitor_ap/KERNEL/SCALER/ms_rwreg.c: 在頂層：
+monitor_ap/KERNEL/SCALER/ms_rwreg.c:289: 錯誤：expected identifier or 「(」 before 「.」 token
+Makefile:648: recipe for target `Obj_R2_MT9700_MTK/./monitor_ap/KERNEL/SCALER/ms_rwreg.o' failed
+make: *** [Obj_R2_MT9700_MTK/./monitor_ap/KERNEL/SCALER/ms_rwreg.o] Error 1

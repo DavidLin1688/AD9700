@@ -1,0 +1,7 @@
+---- BD_MTV19067__ Matches (6 in 3 files) ----
+BD_MT9700_A2V1_P2_S.h (d:\svn-server\trunk\ad9700\tsumr2\hk_r2\monitor_ap\custom\mtk\board):1:#ifndef __BD_MTV19067__
+BD_MT9700_A2V1_P2_S.h (d:\svn-server\trunk\ad9700\tsumr2\hk_r2\monitor_ap\custom\mtk\board):2:#define __BD_MTV19067__
+BD_MT9700_A5V2_P2_S.h (d:\svn-server\trunk\ad9700\tsumr2\hk_r2\monitor_ap\custom\mtk\board):1:#ifndef __BD_MTV19067__
+BD_MT9700_A5V2_P2_S.h (d:\svn-server\trunk\ad9700\tsumr2\hk_r2\monitor_ap\custom\mtk\board):2:#define __BD_MTV19067__
+BD_MTV19067.h (d:\svn-server\trunk\ad9700\tsumr2\hk_r2\monitor_ap\custom\mtk\board):1:#ifndef __BD_MTV19067__
+BD_MTV19067.h (d:\svn-server\trunk\ad9700\tsumr2\hk_r2\monitor_ap\custom\mtk\board):2:#define __BD_MTV19067__
