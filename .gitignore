@@ -1,0 +1,5 @@
+# 忽略 OSD 資料夾
+OSD/
+
+# 忽略 cygwin 資料夾
+cygwin/
